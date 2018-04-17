@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2243750205D8F7600F7E8B8 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = E224374F205D8F7500F7E8B8 /* UIButtonX.swift */; };
+		E2243753205D913A00F7E8B8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2243752205D913A00F7E8B8 /* Default-568h@2x.png */; };
+		E2243755205D94A500F7E8B8 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2243754205D94A500F7E8B8 /* SquareView.swift */; };
 		E2258EF7205C5E5D00416C11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2258EF6205C5E5D00416C11 /* AppDelegate.swift */; };
-		E2258EF9205C5E5D00416C11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2258EF8205C5E5D00416C11 /* ViewController.swift */; };
+		E2258EF9205C5E5D00416C11 /* ShapeEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2258EF8205C5E5D00416C11 /* ShapeEditorViewController.swift */; };
 		E2258EFC205C5E5D00416C11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2258EFA205C5E5D00416C11 /* Main.storyboard */; };
 		E2258EFE205C5E5D00416C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2258EFD205C5E5D00416C11 /* Assets.xcassets */; };
 		E2258F01205C5E5D00416C11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2258EFF205C5E5D00416C11 /* LaunchScreen.storyboard */; };
+		E2918545205DA7B400D54E92 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2918544205DA7B400D54E92 /* Shape.swift */; };
+		E2918547205DA8B500D54E92 /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2918546205DA8B500D54E92 /* TriangleView.swift */; };
+		E2918549205DA8E800D54E92 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2918548205DA8E800D54E92 /* CircleView.swift */; };
+		E291854C205DAD3300D54E92 /* StatsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E291854B205DAD3300D54E92 /* StatsTableViewController.swift */; };
+		E291854E205DAE0C00D54E92 /* StatsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E291854D205DAE0C00D54E92 /* StatsTableViewCell.swift */; };
+		E2918550205DAF0D00D54E92 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = E291854F205DAF0D00D54E92 /* Enums.swift */; };
+		E2D91D9D205E7B7B006EB927 /* CommandManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D91D9C205E7B7B006EB927 /* CommandManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E224374F205D8F7500F7E8B8 /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		E2243752205D913A00F7E8B8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E2243754205D94A500F7E8B8 /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
 		E2258EF3205C5E5D00416C11 /* peak-canvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "peak-canvas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2258EF6205C5E5D00416C11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2258EF8205C5E5D00416C11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2258EF8205C5E5D00416C11 /* ShapeEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeEditorViewController.swift; sourceTree = "<group>"; };
 		E2258EFB205C5E5D00416C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2258EFD205C5E5D00416C11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2258F00205C5E5D00416C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2258F02205C5E5D00416C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2918544205DA7B400D54E92 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		E2918546205DA8B500D54E92 /* TriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
+		E2918548205DA8E800D54E92 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		E291854B205DAD3300D54E92 /* StatsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsTableViewController.swift; sourceTree = "<group>"; };
+		E291854D205DAE0C00D54E92 /* StatsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsTableViewCell.swift; sourceTree = "<group>"; };
+		E291854F205DAF0D00D54E92 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		E2D91D9C205E7B7B006EB927 /* CommandManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +55,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E2243751205D910F00F7E8B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2243752205D913A00F7E8B8 /* Default-568h@2x.png */,
+				E224374F205D8F7500F7E8B8 /* UIButtonX.swift */,
+				E2258EF6205C5E5D00416C11 /* AppDelegate.swift */,
+				E2258EFD205C5E5D00416C11 /* Assets.xcassets */,
+				E2258EFF205C5E5D00416C11 /* LaunchScreen.storyboard */,
+				E291854F205DAF0D00D54E92 /* Enums.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		E2258EEA205C5E5C00416C11 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +87,35 @@
 		E2258EF5205C5E5D00416C11 /* peak-canvas */ = {
 			isa = PBXGroup;
 			children = (
-				E2258EF6205C5E5D00416C11 /* AppDelegate.swift */,
-				E2258EF8205C5E5D00416C11 /* ViewController.swift */,
+				E2258EF8205C5E5D00416C11 /* ShapeEditorViewController.swift */,
 				E2258EFA205C5E5D00416C11 /* Main.storyboard */,
-				E2258EFD205C5E5D00416C11 /* Assets.xcassets */,
-				E2258EFF205C5E5D00416C11 /* LaunchScreen.storyboard */,
+				E2D91D9C205E7B7B006EB927 /* CommandManager.swift */,
+				E291854A205DA90300D54E92 /* Shapes */,
+				E2D91D9E205E8294006EB927 /* Stats */,
 				E2258F02205C5E5D00416C11 /* Info.plist */,
+				E2243751205D910F00F7E8B8 /* Supporting Files */,
 			);
 			path = "peak-canvas";
+			sourceTree = "<group>";
+		};
+		E291854A205DA90300D54E92 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				E2918544205DA7B400D54E92 /* Shape.swift */,
+				E2243754205D94A500F7E8B8 /* SquareView.swift */,
+				E2918546205DA8B500D54E92 /* TriangleView.swift */,
+				E2918548205DA8E800D54E92 /* CircleView.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		E2D91D9E205E8294006EB927 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				E291854B205DAD3300D54E92 /* StatsTableViewController.swift */,
+				E291854D205DAE0C00D54E92 /* StatsTableViewCell.swift */,
+			);
+			path = Stats;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2258F01205C5E5D00416C11 /* LaunchScreen.storyboard in Resources */,
+				E2243753205D913A00F7E8B8 /* Default-568h@2x.png in Resources */,
 				E2258EFE205C5E5D00416C11 /* Assets.xcassets in Resources */,
 				E2258EFC205C5E5D00416C11 /* Main.storyboard in Resources */,
 			);
@@ -136,8 +191,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2258EF9205C5E5D00416C11 /* ViewController.swift in Sources */,
+				E2918549205DA8E800D54E92 /* CircleView.swift in Sources */,
+				E2D91D9D205E7B7B006EB927 /* CommandManager.swift in Sources */,
+				E291854E205DAE0C00D54E92 /* StatsTableViewCell.swift in Sources */,
+				E2918547205DA8B500D54E92 /* TriangleView.swift in Sources */,
+				E2258EF9205C5E5D00416C11 /* ShapeEditorViewController.swift in Sources */,
+				E2918545205DA7B400D54E92 /* Shape.swift in Sources */,
 				E2258EF7205C5E5D00416C11 /* AppDelegate.swift in Sources */,
+				E2243750205D8F7600F7E8B8 /* UIButtonX.swift in Sources */,
+				E2243755205D94A500F7E8B8 /* SquareView.swift in Sources */,
+				E291854C205DAD3300D54E92 /* StatsTableViewController.swift in Sources */,
+				E2918550205DAF0D00D54E92 /* Enums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +339,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L92N2B4JE3;
 				INFOPLIST_FILE = "peak-canvas/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.swansea.821277.peak-canvas";
@@ -289,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L92N2B4JE3;
 				INFOPLIST_FILE = "peak-canvas/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.swansea.821277.peak-canvas";
